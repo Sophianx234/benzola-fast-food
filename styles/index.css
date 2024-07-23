@@ -281,3 +281,7 @@ a{
 .field{
    position: relative;
 }
+
+.log{
+   color: #fff;
+}
