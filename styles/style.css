@@ -31,6 +31,11 @@
    color: var(--black);
    /* transform: scale(2); */
 }
+.navbar{
+   display: flex;
+   align-items: center;
+
+}
 
 * > img{
    -webkit-user-select: none;
@@ -775,11 +780,14 @@ section{
 }
 #login{
    background-color: var(--peru);
-   padding: 2px 18px;
+   padding: 8px 18px;
    font-weight: 550;
    color: #fff;
-   padding-bottom: 6px;
    border-radius: 2px;
+   font-size: 14px;
+   border-radius: 6px;
+   font-weight: 600;
+   display: inline-block;
 }
 
 #login:hover{
